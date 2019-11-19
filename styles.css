@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  position: absolute;
+  width: 75px;
+  height: 100vh;
+}
+
+nav ul {
+  margin-top: 20vh;
+}
+
+nav li {
+  width: 50px;
+}
+
+main {
+  margin-left: 100px;
+}
+
+h1 {
+  margin: 25px 0px;
+}
+
+h2, button {
+  display: inline-block;
+}
+
+button {
+  float: right;
+  padding: 5px;
+  border-radius: 5px;
+  padding: 5px 25px;
+}
+
+#logo {
+  width: 50px;
+}
+
+#user-summary {
+  width: 700px;
+  float: left;
+}
+
+#welcome-banner {
+  border: solid 1px black;
+}
+
+#welcome-banner h3 {
+  padding: 20px;
+}
+
+#user-dashboard {
+  margin-top: 15px;
+}
+
+.dashboard-column {
+  border: solid 1px black;
+  display: inline-block;
+  width: 230px;
+  height: 100px;
+}
+
+.dashboard-row {
+  border: solid 1px black;
+  height: 75px;
+  margin: 5px;
+}
+
+.dashboard-row img {
+  width: 40px;
+  display: inline-block;
+}
+.dashboard-row p {
+  display: inline-block;
+}
+
+#transactions {
+  border: solid 1px black;
+  float: right;
+  margin-right: 80px;
+  width: 500px;
+}
+
+#transactions button {
+  margin: 15px 5px 0px 50px;
+}
+
+#transactions h2 {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+#accounts-dashboard {
+  margin-top: 50px;
+}
+
+table {
+  width: 90%;
+  margin: 20px;
+  font-size: 18px;
+  border-collapse: collapse;
+}
+
+td {
+  border-bottom: solid 1px black;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
