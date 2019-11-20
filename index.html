@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Biryani&display=swap" rel="stylesheet">
     <link rel ="stylesheet" href="styles.css">
   </head>
   <body>
@@ -16,50 +17,59 @@
       <h1>Balancing Act</h1>
       <section id="user-summary">
         <div id="welcome-banner">
+          <span id="closeButton">&times;</span>
           <h3>Welcome, nerd!</h3>
         </div>
         <div id="user-dashboard">
           <div class="dashboard-column">
-            <h5>Income</h5>
+            <h5>INCOME</h5>
             <p>$2,000</p>
           </div>
           <div class="dashboard-column">
-            <h5>Expenses</h5>
+            <h5>EXPENSES</h5>
             <p>$2,000</p>
           </div>
-          <div class="dashboard-column">
-            <h5>Credit Score</h5>
+          <div class="dashboard-column" id="right-column">
+            <h5>CREDIT SCORE</h5>
             <p>800</p>
           </div>
         </div>
         <div id="accounts-dashboard">
           <h2>Accounts</h2>
-          <button type="button">Manage Accounts</button>
+          <button>MANAGE ACCOUNTS</button>
           <div class="dashboard-row">
             <img src="./assets/images/checking.svg">
-            <p>Wells Fargo</p>
-            <p>Checking</p>
+            <p class="account-name">Wells Fargo</p>
+            <div class="right-col">
+              <p class="account-type">Checking</p>
+            </div>
           </div>
           <div class="dashboard-row">
-            <img src="./assets/images/checking.svg">
-            <p>Wells Fargo</p>
-            <p>Checking</p>
+            <img src="./assets/images/savings.svg">
+            <p class="account-name">Wells Fargo</p>
+            <div class="right-col">
+              <p class="account-type">Savings</p>
+            </div>
           </div>
           <div class="dashboard-row">
-            <img src="./assets/images/checking.svg">
-            <p>Wells Fargo</p>
-            <p>Checking</p>
+            <img src="./assets/images/credit-card.svg">
+            <p class="account-name">Amazon Credit</p>
+            <div class="right-col">
+              <p class="account-type">Credit Card</p>
+            </div>
           </div>
           <div class="dashboard-row">
-            <img src="./assets/images/checking.svg">
-            <p>Wells Fargo</p>
-            <p>Checking</p>
+            <img src="./assets/images/credit-card.svg">
+            <p class="account-name">Southwest Credit</p>
+            <div class="right-col">
+              <p class="account-type">Credit Card</p>
+            </div>
           </div>
         </div>
       </section>
       <section id="transactions">
         <h2>Recent Transactions</h2>
-        <button type="button">New Transactions</button>
+        <button>NEW TRANSACTIONS</button>
         <table>
           <thead>
             <tr>
@@ -76,49 +86,49 @@
             </tr>
             <tr>
               <td>Oct 25, 2019</td>
-              <td>Target</td>
+              <td>Express</td>
               <td>-</td>
               <td>$80.00</td>
             </tr>
             <tr>
               <td>Oct 25, 2019</td>
-              <td>Target</td>
+              <td>Paycheck</td>
               <td>-</td>
               <td>$80.00</td>
             </tr>
             <tr>
               <td>Oct 25, 2019</td>
-              <td>Target</td>
+              <td>Trader Joe's</td>
               <td>-</td>
               <td>$80.00</td>
             </tr>
             <tr>
               <td>Oct 25, 2019</td>
-              <td>Target</td>
+              <td>Shell</td>
               <td>-</td>
               <td>$80.00</td>
             </tr>
             <tr>
               <td>Oct 25, 2019</td>
-              <td>Target</td>
+              <td>Rent</td>
               <td>-</td>
               <td>$80.00</td>
             </tr>
             <tr>
               <td>Oct 25, 2019</td>
-              <td>Target</td>
+              <td>Hapa Sushi</td>
               <td>-</td>
               <td>$80.00</td>
             </tr>
             <tr>
               <td>Oct 25, 2019</td>
-              <td>Target</td>
+              <td>Pig Train</td>
               <td>-</td>
               <td>$80.00</td>
             </tr>
             <tr>
               <td>Oct 25, 2019</td>
-              <td>Target</td>
+              <td>RTD</td>
               <td>-</td>
               <td>$80.00</td>
             </tr>
@@ -126,5 +136,6 @@
         </table>
       </section>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>
