@@ -8,12 +8,12 @@
     <nav>
       <img src="./assets/images/elephant.svg" id="logo">
       <ul>
-        <li><img src="./assets/images/dashboard.svg"></li>
-        <li><img src="./assets/images/transactions.svg"></li>
+        <li id="home-nav"><img src="./assets/images/dashboard.svg"></li>
+        <li id="transactions-nav"><img src="./assets/images/transactions.svg"></li>
         <li><img src="./assets/images/profile.svg"></li>
       </ul>
     </nav>
-    <main>
+    <main id="main">
       <h1>Balancing Act</h1>
       <section id="user-summary">
         <div id="welcome-banner">
@@ -136,6 +136,95 @@
         </table>
       </section>
     </main>
+    <section id="full-transactions">
+    <div class="transactions-top">
+      <h1>Transactions</h1>
+        <button>ALL</button>
+        <button>INFLOW</button>
+        <button>OUTFLOW</button>
+    </div>
+      <section id="transactions-list">
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Payee</th>
+              <th>Inflow</th>
+              <th>Outflow</th>
+            </tr>
+            <tr>
+              <td>Oct 25, 2019</td>
+              <td>Target</td>
+              <td>-</td>
+              <td>$80.00</td>
+            </tr>
+            <tr>
+              <td>Oct 25, 2019</td>
+              <td>Express</td>
+              <td>-</td>
+              <td>$80.00</td>
+            </tr>
+            <tr>
+              <td>Oct 25, 2019</td>
+              <td>Paycheck</td>
+              <td>-</td>
+              <td>$80.00</td>
+            </tr>
+            <tr>
+              <td>Oct 25, 2019</td>
+              <td>Trader Joe's</td>
+              <td>-</td>
+              <td>$80.00</td>
+            </tr>
+            <tr>
+              <td>Oct 25, 2019</td>
+              <td>Shell</td>
+              <td>-</td>
+              <td>$80.00</td>
+            </tr>
+            <tr>
+              <td>Oct 25, 2019</td>
+              <td>Rent</td>
+              <td>-</td>
+              <td>$80.00</td>
+            </tr>
+            <tr>
+              <td>Oct 25, 2019</td>
+              <td>Hapa Sushi</td>
+              <td>-</td>
+              <td>$80.00</td>
+            </tr>
+            <tr>
+              <td>Oct 25, 2019</td>
+              <td>Pig Train</td>
+              <td>-</td>
+              <td>$80.00</td>
+            </tr>
+            <tr>
+              <td>Oct 25, 2019</td>
+              <td>RTD</td>
+              <td>-</td>
+              <td>$80.00</td>
+            </tr>
+          </thead>
+        </table>
+      </section>
+      <form id="transactions-form">
+        <select>
+          <option value="volvo">Expense</option>
+        </select>
+        <select>
+          <option value="volvo">Expense</option>
+        </select>
+        <select>
+          <option value="volvo">Expense</option>
+        </select>
+        <input type="text" name="lname">
+        <input type="text" name="lname">
+        <input type="text" name="lname">
+        <button>Log Expense</button>
+      </form>
+    </section>
     <script src="main.js"></script>
   </body>
 </html>

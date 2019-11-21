@@ -208,3 +208,39 @@ td {
   font-size: 25px;
   color: grey;
 }
+
+#full-transactions {
+  display: none;
+  margin-left: 75px;
+  border: solid 1px black;
+  height: 100vh;
+}
+
+#full-transactions h1 {
+  display: inline-block;
+}
+
+#full-transactions button {
+  width: 130px;
+  margin: 25px 10px;
+}
+
+.transactions-top {
+  width: 700px;
+}
+
+#transactions-list {
+  border: solid 1px black;
+  width: 700px;
+  float: left;
+}
+
+#transactions-form {
+  border: solid 1px black;
+  width: 500px;
+  float: right;
+}
+
+#transactions-form option, select, input {
+  display: block;
+}
