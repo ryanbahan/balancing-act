@@ -138,10 +138,10 @@
     </main>
     <section id="full-transactions">
     <div class="transactions-top">
-      <h1>Transactions</h1>
-        <button>ALL</button>
-        <button>INFLOW</button>
-        <button>OUTFLOW</button>
+      <h1 id="transaction-heading">Transactions</h1>
+        <button class="inactive-button">OUTFLOW</button>
+        <button class="inactive-button">INFLOW</button>
+        <button class="active-button">ALL</button>
     </div>
       <section id="transactions-list">
         <table>
@@ -210,18 +210,25 @@
         </table>
       </section>
       <form id="transactions-form">
-        <select>
-          <option value="volvo">Expense</option>
+        <h2 id="transactions-form-label">New Transaction</h2>
+        <label for"type">Type</label>
+        <select name="type">
+          <option value="expense">Expense</option>
         </select>
-        <select>
-          <option value="volvo">Expense</option>
+        <label for"category">Category</label>
+        <select name="category">
+          <option value="expense">Expense</option>
         </select>
-        <select>
-          <option value="volvo">Expense</option>
+        <label for"account-from">Account from</label>
+        <select name="account-from">
+          <option value="expense">Expense</option>
         </select>
-        <input type="text" name="lname">
-        <input type="text" name="lname">
-        <input type="text" name="lname">
+        <label for"payee">Payee</label>
+        <input type="text" name="payee">
+        <label for"outflow">Outflow</label>
+        <input type="text" name="outflow">
+        <label for"category">Category</label>
+        <input type="text" name="category">
         <button>Log Expense</button>
       </form>
     </section>
